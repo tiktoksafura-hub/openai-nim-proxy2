@@ -22,16 +22,16 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'llama-3.1-nemotron': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
+  'llama': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
   'qwen3-480b': 'qwen/qwen3-coder-480b-a35b-instruct',
   'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
-  'gpt-4o': 'deepseek-ai/deepseek-r1',
+  'gpt-4o': 'deepseek-ai/deepseek-v3-1',
   'gpt-120b': 'openai/gpt-oss-120b',
   'gpt-20b': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-rp': 'qwen/qwen3-coder-480b-a35b-instruct', // Qwen хорош для RP
   'rp-fast': 'meta/llama-3.3-70b-instruct',           // Llama 3.3 70B — быстрый, живой диалог
-  'rp-flash': 'mistralai/mistral-large-2-instruct',    // Mistral Large — хорош для тёмных тем
+  'rp-flash': 'qwen/qwen3-235b-a22b',    // Mistral Large — хорош для тёмных тем
   'gpt-4o-mini': 'nvidia/llama-3.1-nemotron-nano-8b-v1',
   'claude-3-haiku': 'nvidia/llama-3.1-nemotron-nano-8b-v1',
   'claude-3-5-sonnet': 'meta/llama-3.3-70b-instruct',
